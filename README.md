@@ -23,9 +23,9 @@ Students are expected to have prior programming experience; this is not an intro
 | Assignment | Points |
 |------------------|--------|
 | [Assignment 1](assignments/assignment-1.md) | 15 |
-| Assignment 2 | 15 |
-| Assignment 3 | 15 |
-| Assignment 4 | 15 |
+| [Assignment 2](assignments/assignment-2.md) | 15 |
+| [Assignment 3](assignments/assignment-3.md) | 15 |
+| [Assignment 4](assignments/assignment-4.md) | 15 |
 | [Final project](assignments/final-project.md) | 30 |
 | Participation | 10 |
 | **Total Points** | 100 |
@@ -58,16 +58,17 @@ Readings for the course will come primarily from the following books, as well as
 | Apr. 12 | W | Exploratory data analysis |  |
 | Apr. 17 | M | Graphical perception and cognition |  |
 | Apr. 19 | W | Multivariate data visualization |  |
-| Apr. 24 | M | Rules of thumb | Assignment 2 |
-| Apr. 26 | W | Statistical learning models |  |
-| May 1 | M | Interactivity (theory) |  |
-| May 3 | W | Interactivity in R |  |
-| May 8 | M | Geospatial visualization | Assignment 3 |
-| May 10 | W | Introduction to D3 |  |
+| Apr. 24 | M | Rules of thumb |  |
+| Apr. 26 | W | Visualizing scientific results |  |
+| Apr. 28 | F |  | [Assignment 2](assignments/assignment-2.md) |
+| May 1 | M | Interactivity |  |
+| May 3 | W | Interactivity (cont.) |  |
+| May 8 | M | Geospatial visualization |  |
+| May 10 | W | Introduction to D3 | [Assignment 3](assignments/assignment-3.md) |
 | May 15 | M | Network visualization |  |
 | May 17 | W | More D3 |  |
-| May 22 | M | Text visualization | Assignment 4 |
-| May 24 | W | Effective presentations |  |
+| May 22 | M | Text visualization |  |
+| May 24 | W | Final project presentations | [Assignment 4](assignments/assignment-4.md) / Present [final project](assignments/final-project.md) |
 | May 29 | M | No class (Memorial Day) |  |
 | May 31 | W | Final project presentations | Present [final project](assignments/final-project.md) |
 | June 4 | Su |  | Submit [final project](assignments/final-project.md) |
@@ -96,9 +97,10 @@ All readings are required unless otherwise noted. Adjustments can be made throug
     * FA Ch 3 - focus on pg. 61-72
     * [Gelman, Andrew, and Antony Unwin. "Infovis and statistical graphics: different goals, different looks." *Journal of Computational and Graphical Statistics* 22.1 (2013): 2-28.](http://www-tandfonline-com.proxy.uchicago.edu/doi/full/10.1080/10618600.2012.761137)
     * [Wickham, Hadley. "Graphical criticism: some historical notes." *Journal of Computational and Graphical Statistics* 22.1 (2013): 38-44.](http://www-tandfonline-com.proxy.uchicago.edu/doi/full/10.1080/10618600.2012.761140?src=recsys)
+    * [Bateman, Scott, et al. "Useful junk?: the effects of visual embellishment on comprehension and memorability of charts." *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*. ACM, 2010.](http://www.cedma-europe.org/newsletter%20articles/misc/The%20Effects%20of%20Visual%20Embellishment%20on%20Comprehension%20and%20Memorability%20of%20Charts.pdf)
 1. Exploratory data analysis
     * TA Ch 6-7
-    * [R4DS Ch 7](http://r4ds.had.co.nz/exploratory-data-analysis.html)
+    * [R4DS Ch 5, 7](http://r4ds.had.co.nz/exploratory-data-analysis.html)
 1. Graphical perception and cognition
     * FA Ch 5-7
     * [Cleveland, William S., and Robert McGill. "Graphical perception: Theory, experimentation, and application to the development of graphical methods." *Journal of the American statistical association* 79.387 (1984): 531-554.](http://www.jstor.org.proxy.uchicago.edu/stable/2288400)
@@ -108,18 +110,29 @@ All readings are required unless otherwise noted. Adjustments can be made throug
 1. Multivariate data visualization
     * TA Ch 8-9
 1. Rules of thumb
-1. Statistical learning models
-    * ISLR Ch 3
-1. Interactivity (theory)
-1. Interactivity in R
+1. Visualizing scientific results
+    * [Using Graphs Instead of Tables in Political Science](http://www.jstor.org.proxy.uchicago.edu/stable/20446574?seq=1#page_scan_tab_contents)
+    * [visual battle: table vs graph](http://www.storytellingwithdata.com/blog/2011/11/visual-battle-table-vs-graph)
+    * [Why tables are really much better than graphs](http://andrewgelman.com/2009/04/01/why_tables_are/)
+    * ISLR Ch 3 - skim for a review of the assumptions and mechanics of linear regression (read in more depth if you need a stronger introduction)
+1. Interactivity
+    * [Plotly R library](https://plot.ly/r/)
+    * [`htmlwidgets`](http://www.htmlwidgets.org/)
+    * [`flexdashboard`](http://rmarkdown.rstudio.com/flexdashboard/)
+    * [Shiny by RStudio](https://shiny.rstudio.com/)
+    * [Building Shiny Apps](http://cfss.uchicago.edu/shiny001_abc.html)
+1. Interactivity (cont.)
 1. Geospatial visualization
     * TA Ch 10
+    * [Cartographers for social equality](https://www.youtube.com/watch?v=vVX-PrBRtTY)
 1. Introduction to D3
-    * Murray TBD
+    * Murray Ch 1-6
 1. Network visualization
+    * Munzner ch 9
+    * [Andris, Clio, et al. "The rise of partisanship and super-cooperators in the US House of Representatives." *PloS one* 10.4 (2015): e0123507.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123507)
 1. More D3
-    * Murray TBD
+    * Murray Ch 7-13
 1. Text visualization
-1. Effective presentations
+1. Final project presentations
 1. No class (Memorial Day)
 1. Final project presentations
